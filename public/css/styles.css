@@ -13027,3 +13027,28 @@ footer a:focus {
     background-position: 1000px;
   }
 }
+
+.device-wrapper{
+  /* bounce animation eas */
+  -webkit-animation: bounce 3s infinite ease-in-out;
+
+}
+/* bouncing animation css */
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  60% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+  }
+}
